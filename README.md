@@ -21,15 +21,24 @@ Real-time sentiment prediction for new text inputs
 
 📂 Project Structure
 Sentiment_Analysis/
+
 │── Sentiment_analysis.ipynb          # Main notebook
+
 │── data/
+
 │    └── dataset.csv                  # Input dataset (if available)
+
 │── models/
+
 │    └── model.pkl                    # Saved trained model
+
 │── README.md                         # Project documentation
+
 │── requirements.txt                  # Dependencies
 
+
 🧰 Technologies Used
+
 
 Python
 
@@ -45,9 +54,12 @@ Matplotlib / Seaborn
 
 📦 Installation
 
+
 Install dependencies:
 
+
 pip install -r requirements.txt
+
 
 ▶️ How to Run
 
@@ -62,7 +74,9 @@ Train the model and evaluate performance.
 
 Use the final prediction cell to test custom input sentences.
 
+
 📊 Model Performance
+
 
 The notebook includes:
 
@@ -74,19 +88,33 @@ Classification report
 
 These metrics help analyze how well the model performs.
 
+
 💡 Usage Example
+
 Input: "The product quality is amazing!"
+
+
 Output: Positive
 
+
+
 Input: "I did not like the service."
+
+
 Output: Negative
+
+
 
 🔮 Future Enhancements
 
 Use LSTM or Transformer-based models (BERT, RoBERTa)
 
+
+
 Deploy the model using Flask or Streamlit
 
+
 Improve dataset size and quality
+
 
 Real-time sentiment dashboard
