@@ -1,4 +1,5 @@
 📘 Sentiment Analysis – README
+
 📌 Project Overview
 
 This project demonstrates how to perform Sentiment Analysis using Natural Language Processing (NLP). The goal is to classify input text into categories such as Positive, Negative, or Neutral using machine learning or deep learning techniques.
